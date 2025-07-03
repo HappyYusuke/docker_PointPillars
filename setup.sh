@@ -1,11 +1,11 @@
 # zipファイル解凍
-echo "Unzipping pointpillars.zip ..."
+echo "Unzipping large_files_docker_PointPillars.zip ..."
 unzip $HOME/large_files_docker_PointPillars.zip
 echo "unzipped!"
 
 # Docker IMAGE を取り込み
 echo -e "\nLoading docker image ..."
-docker load < $HOME/docker_PointPillars/large_files_docker_PointPillars/pointpillars.tar.gz
+docker load < $HOME/docker_PointPillars/pointpillars.tar.gz
 echo "Loaded!"
 
 # ターミナル出力
