@@ -9,7 +9,7 @@ git clone https://github.com/HappyYusuke/docker_PointPillars.git
 
 </br>
 
-zip形式のファイルを以下URLからホームディレクトリへダウンロードする。
+zip形式のファイルを以下URLからホームディレクトリへダウンロードする。</br>
 https://kanazawa-it.box.com/s/p66u40evncggzi00rr0xnq0z2hp38u9i
 
 </br>
@@ -27,6 +27,14 @@ Dockerを起動する。Dockerを起動すると、プロンプトの@以降がr
 
 ```
 ./run-docker-container.sh
+```
+
+</br>
+
+```setup_datasets.shを実行する```
+
+```
+./setup_datasets.sh
 ```
 
 </br>
