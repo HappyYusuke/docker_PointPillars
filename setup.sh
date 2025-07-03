@@ -1,17 +1,11 @@
 # zipファイル解凍
-echo "Unzipping large_files_docker_ReID3D2025.zip ..."
-unzip $HOME/large_files_docker_ReID3D2025.zip
+echo "Unzipping pointpillars.zip ..."
+unzip $HOME/large_files_docker_PointPillars.zip
 echo "unzipped!"
-
-# 移動
-echo -e "\nCopying files ..."
-cp -r $HOME/docker_ReID3D2025/large_files_docker_ReID3D2025/ReID3D $HOME/docker_ReID3D2025/home
-cp -r $HOME/docker_ReID3D2025/large_files_docker_ReID3D2025/ros2_bags $HOME/docker_ReID3D2025/home
-echo "Copied!"
 
 # Docker IMAGE を取り込み
 echo -e "\nLoading docker image ..."
-docker load < $HOME/docker_ReID3D2025/large_files_docker_ReID3D2025/dockerimage_reid3d.tar.gz
+docker load < $HOME/docker_PointPillars/large_files_docker_PointPillars/pointpillars.tar.gz
 echo "Loaded!"
 
 # ターミナル出力
