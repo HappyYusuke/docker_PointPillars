@@ -39,7 +39,7 @@ Dockerを起動する。Dockerを起動すると、プロンプトの@以降がr
 
 </br>
 
-あとは、https://github.com/zhulf0804/PointPillars#trainingを実行する。
+あとは、[PointPillarsの学習](https://github.com/zhulf0804/PointPillars#training)を進める。
 
 </br>
 
