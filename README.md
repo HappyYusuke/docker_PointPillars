@@ -13,9 +13,26 @@ zip形式のファイルを以下URLからホームディレクトリへダウ�
 
 </br>
 
-zip形式のファイルを解凍し移動する。
+```setup.sh```を実行する
 
 ```
-unzip ~/pointpillars.zip
-mv ~/pointpillars/pointpillars.tar ~/docker_PointPillars
+cd ~/docker_PointPillars
+./setup.sh
+```
+
+</br>
+
+Dockerを起動する。Dockerを起動すると、プロンプトの@以降がros2になる。
+
+```
+./run-docker-container.sh
+```
+
+</br>
+
+```setup_pointpillars.sh```を実行する。
+```setup_pointpillars.sh```は、PointPillarsのクローンからデータセットのフォーマットまで実行するスクリプトのためしばらく時間がかかります。
+
+```
+./setup_pointpillars.sh
 ```
