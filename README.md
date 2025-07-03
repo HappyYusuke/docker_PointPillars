@@ -30,7 +30,7 @@ Dockerを起動する。Dockerを起動すると、プロンプトの@以降がr
 
 </br>
 
-```setup_pointpillars.sh```を実行する。
+```setup_pointpillars.sh```を実行する。</br>
 ```setup_pointpillars.sh```は、PointPillarsのクローンからデータセットのフォーマットまで実行するスクリプトのためしばらく時間がかかります。
 
 ```
