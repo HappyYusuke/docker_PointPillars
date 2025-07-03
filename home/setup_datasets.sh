@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# ホームディレクトリに移動
+cd ~/
+
 # データセットのダウンロード
 wget https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
 wget https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip
