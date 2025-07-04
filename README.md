@@ -55,7 +55,8 @@ Dockerを起動する。Dockerを起動すると、プロンプトの@以降がr
 # TODO
 
 * ~~PointPillarsをDockerで環境構築する~~
-* PointPillarsを学習する
-* 重みファイルを保存
+* ~~PointPillarsを学習する~~
+* ~~重みファイルを保存~~
+* PointPillarsで推論する
 * PointPillarsの精度をros2_tao_pointpillarsと比較する
 * PointPillarsの方が精度が良ければ、ROS2化する。
